@@ -69,4 +69,32 @@ body{
     list-style-type: disc;
     margin-left: 25px;
     color: #5e5e5e;
+    text-transform: capitalize;
+    font-size: 1.2vw;
+}
+
+
+.wrapper .container .btn-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-top: 30px;
+}
+
+.btn-container a{
+    padding: 5px 15px;
+    box-shadow: 1px 1px 3px #cccccc,
+    -1px -1px 3px #ceccec;
+    border-radius: 1px;
+    font-size: 1.2vw;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: rgba(11, 13, 138, 0.76);
+
+}
+
+.btn-container a:nth-child(2){
+    margin-left: 20px;
 }
