@@ -40,3 +40,33 @@ body{
     width: 100%;
     height: 100%;
 }
+
+.wrapper .container .err-detail{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.err-detail h2{
+    font-size: 1.5vw;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+}
+
+.wrapper .container .err-reason{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+
+}
+
+.err-reason ul li{
+    list-style-type: disc;
+    margin-left: 25px;
+    color: #5e5e5e;
+}
