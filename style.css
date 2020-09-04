@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette &family=Squada+One&display=swap');
+
+
 *,html,body{
     padding: 0;
     margin: 0;
@@ -53,6 +56,7 @@ body{
     font-size: 1.5vw;
     font-weight: bold;
     letter-spacing: 0.3px;
+    font-family: 'Courgette', cursive;
 }
 
 .wrapper .container .err-reason{
@@ -71,6 +75,7 @@ body{
     color: #5e5e5e;
     text-transform: capitalize;
     font-size: 1.2vw;
+    font-family: 'Squada One', cursive;
 }
 
 
@@ -92,6 +97,7 @@ body{
     font-weight: 700;
     letter-spacing: 0.5px;
     color: rgba(11, 13, 138, 0.76);
+    font-family: 'Squada One', cursive;
 
 }
 
