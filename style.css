@@ -87,7 +87,7 @@ body{
     padding: 5px 15px;
     box-shadow: 1px 1px 3px #cccccc,
     -1px -1px 3px #ceccec;
-    border-radius: 1px;
+    border-radius: 2px;
     font-size: 1.2vw;
     font-weight: 700;
     letter-spacing: 0.5px;
@@ -98,3 +98,84 @@ body{
 .btn-container a:nth-child(2){
     margin-left: 20px;
 }
+
+/*
+-------  responsive code will be create here
+*/
+
+@media screen and (max-width: 1024px){
+
+    .wrapper .container{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .wrapper .container {
+        width: 40%;
+    }
+
+    .wrapper .err-detail h2{
+        font-size: 2vw;
+    }
+
+    .wrapper .err-reason ul li{
+        font-size: 1.8vw;
+    }
+
+    .btn-container a{
+        font-size: 2vw;
+        font-weight: 400;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+
+    .wrapper .container {
+        width: 90%;
+    }
+
+    .wrapper .err-detail h2{
+        font-size: 4vw;
+    }
+
+    .wrapper .err-reason ul li{
+        font-size: 3vw;
+    }
+
+    .btn-container a{
+        font-size: 4vw;
+        font-weight: 500;
+    }
+
+    
+}
+
+
+
+
+
+@media screen and (max-width: 375px) {
+
+    .wrapper .container {
+        width: 100%;
+    }
+
+    .wrapper .err-detail h2{
+        font-size: 5vw;
+    }
+
+    .wrapper .err-reason ul li{
+        font-size: 4vw;
+    }
+
+    .btn-container a{
+        font-size: 5vw;
+        font-weight: 400;
+    }
+}
+
+
+
